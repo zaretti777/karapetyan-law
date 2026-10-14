@@ -297,13 +297,6 @@ section { padding: 120px 0; }
     object-fit: cover;
     display: block;
 }
-.about-photo::before {
-    content: '';
-    position: absolute;
-    inset: 22px;
-    border: 1px solid rgba(201, 169, 97, 0.28);
-    pointer-events: none;
-}
 .about-photo-monogram {
     font-family: var(--serif);
     font-size: 140px;
